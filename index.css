@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: black;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header Start */
+
+  /* Start navbar */
+  header {
+    height: 100vh;
+    background: url("background.png") center center/cover no-repeat;
+    position: relative;
+  }
+  .navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+  }
+  .navbar ul {
+    display: flex;
+    margin-left: 150px;
+  }
+  .logoo {
+    font-family: 'Great Vibes', cursive;
+    padding: 15px 20px ;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .nav ul {
+    display: flex;
+    margin-right: 100px;
+  }
+  
+  .nav ul li a {
+    padding: 15px 20px;
+    font-weight: 600;
+    font-family: 'Great Vibes', cursive;
+  }
+  header li a:hover {
+    border-bottom: 2px solid #fff948;
+    color: #e73b4c;
+  }
+  
+  .nav ul li a:hover {
+    border-bottom: 2px solid #fff948;
+    color: #e73b4c;
+  }
+  
+
+/* End navbar */
+
+  header::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } 
+   header * {
+    z-index: 1;
+  }
+
+
+/* Content  */  
+ header .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+
+  }
+  header .parent h2 {
+    font-size: 70px;
+    color: #faf0f1;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+  }
+  
+  header .parent h1 {   
+      color: #faf0f1;
+      font-size: 200px;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+  /* Content End */
+/*   Header End */
+.contain{
+  background-color: rgb(244, 226, 238);
+  display: inline-block;
+  height: 350px;
+
+}
+.photo img{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+.photo{
+  display: inline-block;
+}
+.text_l {
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+/*   text-align: center; */
+  margin-left: 100px;
+/*   justify-items: center; */
+  
+}
+
+.text_l h3 {
+  color: deeppink;
+  text-align: center;
+  font-size: 43px;
+  padding-right: 10px;
+  padding-top: 20px;
+ 
+}
+
+.txt{
+  font-size: 20px;
+  padding: 5px;
+  color: #000000;
+  font-family: 'Great Vibes', cursive;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 20px;
+
+}
+.price{
+  color: rgb(255, 20, 147);
+  margin-bottom: 30px;
+  /* padding-bottom: 50px; */
+  font-size: 25px;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+ /*  padding-top: 20px; */
+
+} 
+.buy{
+  background-color: rgb(255, 20, 147);
+  margin-bottom: 30px;
+  /* padding-bottom: 50px; */
+  font-size: 25px;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10%;
+  border-color: rgb(255, 20, 147);
+  width: 200px;
+  border: none;
+  margin-left: 130px;
+}
+.buy i{
+  color: #fdf9f9;
+  width: 50px;
+}
+
+.text_l {
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+/*   text-align: center; */
+  margin-left: 100px;
+/*   justify-items: center; */
+  
+}
+
+
+.txt{
+  font-size: 20px;
+  padding: 5px;
+  color: #000000;
+  font-family: 'Great Vibes', cursive;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 20px;
+
+}
+.price{
+  color: rgb(255, 20, 147);
+  margin-bottom: 30px;
+  /* padding-bottom: 50px; */
+  font-size: 25px;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+ /*  padding-top: 20px; */
+
+} 
+
+
+.text_r {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  margin-left: 100px;
+  justify-items: center;
+  
+}
+.titlle{
+  color: aliceblue;
+  text-align: center;
+  font-size: 35px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+
+ 
+}
+.p2 {
+  color: rgb(145, 150, 131);
+  font-size: 15px;
+  font-family: 'Great Vibes', cursive;
+  justify-items: center;
+  text-align: center;
+  margin-top: 50px;
+/*  padding-bottom: 60px; 
+  padding-top: 20px;  */
+}
+
+.p3 {
+  color: rgb(245, 9, 162);
+  font-size: 15px;
+  font-family: 'Great Vibes', cursive;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.text_r i{
+  color: #ffffff;
+}
+
+
+h2{
+  color: aliceblue;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+.off1 , .off2{
+
+  margin-left: 95px;
+}
+.off1  img , .off2 img{
+  width: 300px;
+  height:400px ;
+  display: block;
+} 
+.mg1 , .mg2 ,.mg3 , .mg4 , .mg5 , .mg6{
+  display:inline-block;
+  margin-left: 75px;
+  text-align: center;
+  justify-content: center;
+  width:300px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 2s;
+}
+.rtt{
+  color: aliceblue;
+  display: inline-block;
+  margin: 30px;
+  font-size: 20px;
+}
+.pri{
+  text-decoration: line-through;
+  color: rgb(184, 184, 184);
+  display: inline-block;
+  margin: 30px;
+  font-size: 20px;
+}
+.buy1{
+  background-color: rgb(255, 20, 147);
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 20%;
+  border-color: rgb(255, 20, 147);
+  width: 100px;
+  display: inline-block;
+}
+.buy1 i{
+  color: #fdf9f9;
+  width: 50px;
+}
+
+/* hover for photo */
+ .picture  {
+ 
+  width: 100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 200px;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  transform-origin: center;
+  transition: all.7s ease-in-out;
+  
+
+} 
+.picture h1{
+background-color: rgb(244, 149, 211) ;
+text-align: center;
+color: aliceblue;
+margin-bottom: 30px;
+}
+
+.picture p{
+font-size: 15px;
+color: aliceblue;
+
+}
+.picture:hover  {
+  top: 0;
+  opacity: 1; 
+}
+
+
+
+.back{
+  background-image: url("lizzie-BqYoSL76lGo-unsplash 2.png");
+  background-attachment:fixed;
+  background-size: 100% 100%;
+  height: 250px;
+}
+
+
+
+/* footer  */
+.foot{
+  color: aliceblue;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.footer a{
+  
+      padding: 14px 16px;
+      color:lightslategray;
+      display:block;
+      text-decoration: none;
+
+}
+.f1 , .f2 ,.f3 , .f4{
+ display:inline-block;
+ margin-left: 75px;
+ width:200px;
+}
+.footer a:hover{
+  color: aliceblue;
+}
+
